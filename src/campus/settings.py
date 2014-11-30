@@ -118,6 +118,8 @@ STATICFILES_DIRS = (
                     ('css', os.path.join(STATIC_ROOT, 'css').replace('\\', '/')),
                     ('img', os.path.join(STATIC_ROOT, 'img').replace('\\', '/')),
                     ('js', os.path.join(STATIC_ROOT, 'js').replace('\\', '/')),
+                    ('data', os.path.join(STATIC_ROOT, 'data').replace('\\', '/')),
+                    ('fonts', os.path.join(STATIC_ROOT, 'fonts').replace('\\', '/')),
 #                     os.path.join(os.path.dirname(__file__), 'static').replace('\\','/'),
 #                     os.path.join('static'),
                     # Put strings here, like "/home/html/static" or "C:/www/django/static".

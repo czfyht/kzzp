@@ -25,6 +25,7 @@ urlpatterns = patterns('campustalk.views',
     url(r'^loadshxjh/$', 'loadshxjh'),
     url(r'^loadgzxjh/$', 'loadgzxjh'),
     url(r'^loadurls/$', 'loadurls'),
+#     url(r'^data/Zhaopinzhushou.apk/$', 'bigFileView'),
 #     url(r'^loadxjh/$', 'load_campus_talk'),
     url(r'^ueditor/',include('DjangoUeditor.urls')),
 )
